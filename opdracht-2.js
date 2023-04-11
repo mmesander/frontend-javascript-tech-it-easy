@@ -23,6 +23,14 @@ for (let i = 0; i < inventory.length; i++) {
 }
 
 console.log(boughtTvs)
+
 //-------------Opdracht 2d-------------//
 
+const dashboardBought = document.getElementById('products-bought');
+dashboardBought.textContent = boughtTvs;
+
 //-------------Opdracht 2e-------------//
+
+const remainingTvs = boughtTvs - soldTvs;
+const dashboardRemaining = document.getElementById('products-remaining');
+dashboardRemaining.textContent = remainingTvs;
