@@ -5,7 +5,7 @@
     /*border: 1px solid indianred;*/
 }
 
-/*--------------------Opdracht 2--------------------//*/
+/*--------------------Opdracht 2--------------------*/
 
 .dashboard-outer-container {
     display: flex;
@@ -65,3 +65,6 @@
 #products-remaining {
     color: red;
 }
+
+/*--------------------Opdracht 3--------------------*/
+

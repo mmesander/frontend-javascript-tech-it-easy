@@ -22,7 +22,7 @@ for (let i = 0; i < inventory.length; i++) {
     boughtTvs = boughtTvs + inventory[i].originalStock;
 }
 
-console.log(boughtTvs)
+console.log(boughtTvs);
 
 //-------------Opdracht 2d-------------//
 
